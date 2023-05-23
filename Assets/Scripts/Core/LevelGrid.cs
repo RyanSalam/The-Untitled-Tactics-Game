@@ -83,5 +83,11 @@ namespace Tactics
         {
             return (width, height);
         }
+
+        private void OnDestroy()
+        {
+            if (Instance == this)
+                Instance = null;
+        }
     }
 }

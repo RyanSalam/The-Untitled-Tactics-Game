@@ -14,10 +14,26 @@ namespace Tactics.UnitSystem
         [Header("Components")]
         [SerializeField] private HealthComponent health;
 
+        [Header("Attributes")]
+        [SerializeField] private UnitFaction unitFaction;
+
+
+        private GridPosition position;
+
         private void Awake()
         {
             if (health == null)
                 health = GetComponent<HealthComponent>();
+        }
+
+        public GridPosition GetUnitGridPosition()
+        {
+            return position;
+        }
+
+        public UnitFaction GetUnitFaction()
+        {
+            return unitFaction;
         }
     }
 
@@ -31,9 +47,5 @@ namespace Tactics.UnitSystem
 
 namespace Tactics.ActionSystem
 {
-    public abstract class ActionBase : MonoBehaviour
-    {
-
-    }
 }
 
