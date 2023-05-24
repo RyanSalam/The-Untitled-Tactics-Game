@@ -9,17 +9,19 @@ namespace Tactics.GridSystem
     {
         private int width;
         private int height;
-
         private float cellSize;
+
+        private Vector3 origin;
 
         private TGridItem[,] gridItemArray;
         private List<TGridItem> gridItemList;
 
-        public Grid(int width, int height, float cellSize, Func<GridPosition, TGridItem> CreateGridObject)
+        public Grid(int width, int height, float cellSize, Vector3 origin, Func<GridPosition, TGridItem> CreateGridObject)
         {
             this.width = width;
             this.height = height;
             this.cellSize = cellSize;
+            this.origin = origin;
 
             gridItemArray = new TGridItem[width, height];
             gridItemList = new List<TGridItem>();
@@ -36,13 +38,13 @@ namespace Tactics.GridSystem
 
         public Vector3 GetGridToWorld(GridPosition position)
         {
-            return new Vector3(position.x, position.y) * cellSize;
+            return new Vector3(position.x, position.y) * cellSize + origin;
         }
 
         public GridPosition GetWorldToGrid(Vector3 worldPosition)
         {
-            int x = Mathf.RoundToInt(worldPosition.x / cellSize);
-            int y = Mathf.RoundToInt(worldPosition.y / cellSize);
+            int x = Mathf.RoundToInt((worldPosition.x / cellSize) - origin.x);
+            int y = Mathf.RoundToInt((worldPosition.y / cellSize) - origin.y);
             return new GridPosition(x, y);
         }
 

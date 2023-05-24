@@ -46,6 +46,11 @@ namespace Tactics.ActionSystem
             return GetValidActionGridPositions().Contains(position);
         }
 
+        public string GetActionName()
+        {
+            return actionName;
+        }
+
     }
 }
 

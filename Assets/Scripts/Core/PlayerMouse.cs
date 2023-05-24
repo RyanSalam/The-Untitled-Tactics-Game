@@ -10,6 +10,8 @@ namespace Tactics
     {
         public static PlayerMouse Instance { get; private set; }
 
+        [SerializeField] private Transform cellVisual;
+
         private void Awake()
         {
             if (Instance == null)
@@ -17,6 +19,11 @@ namespace Tactics
 
             if (Instance != this)
                 Destroy(this.gameObject);
+        }
+
+        private void Update()
+        {
+            cellVisual.position = LevelGrid.Instance.GetWorldPosition(GetMouseGridPosition());
         }
 
         public static Vector3 GetPosition()

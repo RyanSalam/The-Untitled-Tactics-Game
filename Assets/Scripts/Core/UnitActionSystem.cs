@@ -1,6 +1,8 @@
 ﻿using System;
 using UnityEngine;
 
+using UnityEngine.EventSystems;
+
 using Tactics.ActionSystem;
 using Tactics.GridSystem;
 using Tactics.UnitSystem;
@@ -33,6 +35,7 @@ namespace Tactics
         private void Update()
         {
             if (isActionOccuring) return;
+            if (EventSystem.current.IsPointerOverGameObject()) return;
 
             if (!TryHandleUnitSelection())
                 HandleSelectedAction();

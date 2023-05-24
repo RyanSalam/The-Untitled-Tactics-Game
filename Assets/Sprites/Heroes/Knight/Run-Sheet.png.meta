@@ -103,7 +103,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Run-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be2bd23c3ea43d479c0b1091eff64a0
+      internalID: 1172094150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0feff72c0519c24a9e7024f1e80a926
+      internalID: 1501566813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af23bbcbb8d5b824ebe5e1fc4e9d5b9d
+      internalID: 65652859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfffa837d5d6d44cba0515475f00080
+      internalID: 1840586042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473852ffea2c5343acda23694794b52
+      internalID: 1042931107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4806c3a6b4a7e3b4fb1694b8ec8a84f5
+      internalID: -915796846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +240,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Run-Sheet_0: 1172094150
+      Run-Sheet_1: 1501566813
+      Run-Sheet_2: 65652859
+      Run-Sheet_3: 1840586042
+      Run-Sheet_4: 1042931107
+      Run-Sheet_5: -915796846
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

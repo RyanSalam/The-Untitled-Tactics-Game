@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 using Tactics.GridSystem;
 using Tactics.UnitSystem;
@@ -8,9 +9,13 @@ namespace Tactics
 {
     public class LevelGrid : MonoBehaviour
     {
+        [Header("Grid Properties")]
         [SerializeField] private int width = 5;
         [SerializeField] private int height = 5;
         [SerializeField] private float cellSize = 1;
+
+        [Header("Tile Map Components")]
+        [SerializeField] private Tilemap unwalkableMask;
         [SerializeField] private bool drawGizmos = false;
 
 
@@ -34,12 +39,27 @@ namespace Tactics
             if (Instance != this)
                 Destroy(this.gameObject);
 
-            levelGrid = new Grid<GridObject>(width, height, cellSize, CreateGridObject);
+            levelGrid = new Grid<GridObject>(width, height, cellSize, transform.position, CreateGridObject);
         }
 
         private GridObject CreateGridObject(GridPosition position)
         {
-            return new GridObject(position);
+            GridObject gridObject = new GridObject(position);
+
+            // Have to calculate world pos without helper function as grid is still not initialized
+            Vector3 worldPos = new Vector3(position.x, position.y) * cellSize + transform.position;
+
+            int x = Mathf.RoundToInt(worldPos.x);
+            int y = Mathf.RoundToInt(worldPos.y);
+
+            Vector3Int cellPos = unwalkableMask.WorldToCell(worldPos);
+
+            if (unwalkableMask.GetTile(cellPos) != null)
+            {
+                gridObject.SetIsWalkable(false);
+            }
+
+            return gridObject;
         }
 
         #region UnitMovement
@@ -81,6 +101,7 @@ namespace Tactics
         public bool IsValidGridPosition(GridPosition position) => levelGrid.IsValidGridPosition(position);
         public bool IsValidGridPosition(int x, int y) => levelGrid.IsValidGridPosition(x, y);
         public bool IsGridPositionEmpty(GridPosition position) => !levelGrid.GetGridItem(position).HasUnit();
+        public bool IsGridPositionWalkable(GridPosition position) => GetGridObjectAtPosition(position).GetIsWalkable();
         #endregion
         public (float, float) GetGridWidthAndHeight()
         {
@@ -95,7 +116,8 @@ namespace Tactics
             for (int x = 0; x < width; x++)
                 for(int y = 0; y < height; y++)
                 {
-                    Vector3 cubePos = new Vector3(x, y) * cellSize;
+                    Vector3 pos = transform.position;
+                    Vector3 cubePos = new Vector3(x + pos.x, y + pos.y) * cellSize;
                     Gizmos.DrawWireCube(cubePos, Vector3.one * cellSize);
                 }
         }

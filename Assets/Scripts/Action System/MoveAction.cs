@@ -35,6 +35,7 @@ namespace Tactics.ActionSystem
             {
                 transform.position = LevelGrid.Instance.GetWorldPosition(target);
                 LevelGrid.Instance.UnitMovedGridPosition(owningUnit, start, target);
+                GetComponent<Animator>().SetBool("Moving", false);
                 ActionComplete();
             }
         }
@@ -45,14 +46,15 @@ namespace Tactics.ActionSystem
 
             GridPosition unitPosition = owningUnit.GetUnitGridPosition();
 
-            for (int x = -maxMoveDistance; x < maxMoveDistance; x++)
-                for (int y = -maxMoveDistance; y < maxMoveDistance; y++)
+            for (int x = -maxMoveDistance; x <= maxMoveDistance; x++)
+                for (int y = -maxMoveDistance; y <= maxMoveDistance; y++)
                 {
                     GridPosition offset = new GridPosition(x, y);
                     GridPosition finalPosition = unitPosition + offset;
 
                     if (!LevelGrid.Instance.IsValidGridPosition(finalPosition)) continue;
                     if (!LevelGrid.Instance.IsGridPositionEmpty(finalPosition)) continue;
+                    if (!LevelGrid.Instance.IsGridPositionWalkable(finalPosition)) continue;
                     if (unitPosition == finalPosition) continue;
 
                     validPositions.Add(finalPosition);
@@ -68,6 +70,7 @@ namespace Tactics.ActionSystem
             targetWorld = LevelGrid.Instance.GetWorldPosition(target);
 
             isMoving = true;
+            GetComponent<Animator>().SetBool("Moving", true);
 
             ActionStart(OnActionComplete);
         }

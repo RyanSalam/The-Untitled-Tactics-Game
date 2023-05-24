@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Tactics.GridSystem;
+using Tactics.ActionSystem;
 
 namespace Tactics.UnitSystem
 {
@@ -14,6 +15,7 @@ namespace Tactics.UnitSystem
 
         [Header("Components")]
         [SerializeField] private HealthComponent health;
+        [SerializeField] private MoveAction moveAction;
 
         [Header("Attributes")]
         [SerializeField] private UnitFaction unitFaction;
