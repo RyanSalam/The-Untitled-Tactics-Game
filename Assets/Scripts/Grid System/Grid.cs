@@ -27,7 +27,7 @@ namespace Tactics.GridSystem
             for (int x = 0; x < width; x++)
                 for (int y = 0; y < height; y++)
                 {
-                    GridPosition position = new GridPosition(x, y);
+                    GridPosition position = new(x, y);
                     TGridItem gridItem = CreateGridObject(position);
                     gridItemArray[x, y] = gridItem;
                     gridItemList.Add(gridItem);

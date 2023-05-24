@@ -11,6 +11,8 @@ namespace Tactics
         [SerializeField] private int width = 5;
         [SerializeField] private int height = 5;
         [SerializeField] private float cellSize = 1;
+        [SerializeField] private bool drawGizmos = false;
+
 
         private Grid<GridObject> levelGrid;
 
@@ -58,6 +60,7 @@ namespace Tactics
         {
             RemoveUnitAtPosition(from);
             SetUnitAtGridPosition(unit, to);
+            unit.SetUnitPosition(to);
 
             OnAnyUnitMovedEventArgs movedEventArgs = new OnAnyUnitMovedEventArgs
             {
@@ -83,6 +86,20 @@ namespace Tactics
         {
             return (width, height);
         }
+
+#if UNITY_EDITOR
+        private void OnDrawGizmos()
+        {
+            if (drawGizmos == false) return;
+
+            for (int x = 0; x < width; x++)
+                for(int y = 0; y < height; y++)
+                {
+                    Vector3 cubePos = new Vector3(x, y) * cellSize;
+                    Gizmos.DrawWireCube(cubePos, Vector3.one * cellSize);
+                }
+        }
+#endif
 
         private void OnDestroy()
         {

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1f9447d5397e62646990145f918a5692
+guid: 6f582b9b7b32f8d458d7ab3457a89265
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,127 +105,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death-Sheet_0
+      name: Hands_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 19
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9feff18c56127041ba6f7e4a28e76f5
-      internalID: -126489292
+      spriteID: 6c88728ef299b2e458140f1dcf4d6b3a
+      internalID: 1712714868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death-Sheet_1
+      name: Hands_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 0
-        width: 19
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 21
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a437590e0d0a8d948b34058fddef1a0f
-      internalID: -1919751945
+      spriteID: ffe14d318d1e7894489297a3f79103a9
+      internalID: -1107640240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death-Sheet_2
+      name: Hands_2
       rect:
         serializedVersion: 2
-        x: 101
-        y: 0
-        width: 26
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4
+        y: 37
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308c35d135ea19d4cb5c81bdffae078d
-      internalID: 1543012615
+      spriteID: 28f8b1db1fe2d09458f7a29a37931229
+      internalID: -1939538671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death-Sheet_3
+      name: Hands_3
       rect:
         serializedVersion: 2
-        x: 148
-        y: 0
-        width: 34
-        height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 21
+        y: 37
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff63a9e4e24b388499cfd929131a653a
-      internalID: -709351407
+      spriteID: 3bba355baec8dec49b1c4c02e30ee384
+      internalID: -515736354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death-Sheet_4
+      name: Hands_4
       rect:
         serializedVersion: 2
-        x: 197
-        y: 0
-        width: 33
-        height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0359b2f71f366f488fdee9a9b7adef1
-      internalID: 1976665084
+      spriteID: a88b0dbbd4fda5f4f97aed646f67e9cb
+      internalID: 1032654234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death-Sheet_5
+      name: Hands_5
       rect:
         serializedVersion: 2
-        x: 245
-        y: 0
-        width: 33
-        height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 21
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04faefe7cd794a740b582e11faaf271e
-      internalID: -1330057477
+      spriteID: ba069febcf67b0a48ab86d9799f83de4
+      internalID: -1855251446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hands_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc747a0948f2b9c49a7553b903c2f607
+      internalID: 362089886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hands_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf66e50ab6ce7043806a933662e6382
+      internalID: 1706168293
       vertices: []
       indices: 
       edges: []
@@ -241,12 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Death-Sheet_0: -126489292
-      Death-Sheet_1: -1919751945
-      Death-Sheet_2: 1543012615
-      Death-Sheet_3: -709351407
-      Death-Sheet_4: 1976665084
-      Death-Sheet_5: -1330057477
+      Hands_0: 1712714868
+      Hands_1: -1107640240
+      Hands_2: -1939538671
+      Hands_3: -515736354
+      Hands_4: 1032654234
+      Hands_5: -1855251446
+      Hands_6: 362089886
+      Hands_7: 1706168293
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

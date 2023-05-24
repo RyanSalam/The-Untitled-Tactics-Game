@@ -32,6 +32,8 @@ namespace Tactics
 
         private void Update()
         {
+            if (isActionOccuring) return;
+
             if (!TryHandleUnitSelection())
                 HandleSelectedAction();
         }
@@ -41,6 +43,13 @@ namespace Tactics
             if (Input.GetMouseButtonDown(0))
             {
                 GridPosition mouseGridPosition = PlayerMouse.GetMouseGridPosition();
+
+                if (!LevelGrid.Instance.IsValidGridPosition(mouseGridPosition))
+                {
+                    Debug.Log($"Grid position was not valid: {mouseGridPosition}");
+                    return false;
+                }
+
                 UnitObject unit = LevelGrid.Instance.GetUnitAtPosition(mouseGridPosition);
 
                 if (unit == null) return false;
@@ -48,6 +57,7 @@ namespace Tactics
                 if (unit.GetUnitFaction() != UnitFaction.PLAYER) return false;
 
                 SetSelectedUnit(unit);
+                SetSelectedAction(unit.GetComponent<MoveAction>());
                 return true;
             }
 

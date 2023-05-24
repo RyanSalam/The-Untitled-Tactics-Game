@@ -10,7 +10,7 @@ namespace Tactics.ActionSystem
     {
         [Header("Movement Properties")]
         [SerializeField] private float moveSpeed = 10.0f;
-        [SerializeField] private float maxMoveDistance = 3;
+        [SerializeField] private int maxMoveDistance = 3;
 
         private GridPosition start;
         private GridPosition target;
@@ -34,6 +34,7 @@ namespace Tactics.ActionSystem
             else
             {
                 transform.position = LevelGrid.Instance.GetWorldPosition(target);
+                LevelGrid.Instance.UnitMovedGridPosition(owningUnit, start, target);
                 ActionComplete();
             }
         }
@@ -44,8 +45,8 @@ namespace Tactics.ActionSystem
 
             GridPosition unitPosition = owningUnit.GetUnitGridPosition();
 
-            for (int x = 0; x < maxMoveDistance; x++)
-                for (int y = 0; y < maxMoveDistance; y++)
+            for (int x = -maxMoveDistance; x < maxMoveDistance; x++)
+                for (int y = -maxMoveDistance; y < maxMoveDistance; y++)
                 {
                     GridPosition offset = new GridPosition(x, y);
                     GridPosition finalPosition = unitPosition + offset;
@@ -65,6 +66,8 @@ namespace Tactics.ActionSystem
             start = owningUnit.GetUnitGridPosition();
             target = gridPosition;
             targetWorld = LevelGrid.Instance.GetWorldPosition(target);
+
+            isMoving = true;
 
             ActionStart(OnActionComplete);
         }
