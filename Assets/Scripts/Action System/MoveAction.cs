@@ -64,10 +64,12 @@ namespace Tactics.ActionSystem
         }
 
         public override void TakeAction(GridPosition gridPosition, Action OnActionComplete)
-        {
+        {           
             start = owningUnit.GetUnitGridPosition();
             target = gridPosition;
             targetWorld = LevelGrid.Instance.GetWorldPosition(target);
+
+            owningUnit.TryFlipUnit(target - start);
 
             isMoving = true;
             GetComponent<Animator>().SetBool("Moving", true);

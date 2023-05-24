@@ -24,6 +24,9 @@ namespace Tactics.UI
 
         private void UAS_UnitSelectedCallback()
         {
+            // Somewhat sloppy methods here. 
+            // Remind myself later to fix.
+
             foreach (Transform child in abilityHolder)
             {
                 Destroy(child.gameObject);
