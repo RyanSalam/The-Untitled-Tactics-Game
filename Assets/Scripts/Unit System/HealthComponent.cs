@@ -27,6 +27,19 @@ namespace Tactics.UnitSystem
                 OnDamageTaken?.Invoke();
             }
         }
+
+        public float GetCurrentHealth()
+        {
+            return currentHealth;
+        }
+        public float GetMaxHealth()
+        {
+            return maxHealth;
+        }
+        public float GetHealthNormalized()
+        {
+            return GetCurrentHealth() / GetMaxHealth();
+        }
     }
 }
 

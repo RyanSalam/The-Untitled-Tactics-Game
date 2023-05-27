@@ -35,6 +35,8 @@ namespace Tactics.GridSystem
 
         private void UAS_ActionChangedCallback()
         {
+            visualTileMap.ClearAllTiles();
+
             ActionBase action = UnitActionSystem.Instance.GetSelectedAction();
             foreach (GridPosition position in action.GetValidActionGridPositions())
             {

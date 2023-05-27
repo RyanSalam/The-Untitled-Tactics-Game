@@ -11,6 +11,7 @@ namespace Tactics.ActionSystem
         [Header("Movement Properties")]
         [SerializeField] private float moveSpeed = 10.0f;
         [SerializeField] private int maxMoveDistance = 3;
+        [SerializeField] private bool handleDiagonals = false;
 
         private GridPosition start;
         private GridPosition target;
@@ -33,6 +34,7 @@ namespace Tactics.ActionSystem
             }
             else
             {
+                isMoving = false;
                 transform.position = LevelGrid.Instance.GetWorldPosition(target);
                 LevelGrid.Instance.UnitMovedGridPosition(owningUnit, start, target);
                 GetComponent<Animator>().SetBool("Moving", false);
@@ -40,22 +42,30 @@ namespace Tactics.ActionSystem
             }
         }
 
-        public override List<GridPosition> GetValidActionGridPositions()
+        public override List<GridPosition> GetValidActionGridPositions(GridPosition position)
         {
             List<GridPosition> validPositions = new List<GridPosition>();
-
-            GridPosition unitPosition = owningUnit.GetUnitGridPosition();
 
             for (int x = -maxMoveDistance; x <= maxMoveDistance; x++)
                 for (int y = -maxMoveDistance; y <= maxMoveDistance; y++)
                 {
                     GridPosition offset = new GridPosition(x, y);
-                    GridPosition finalPosition = unitPosition + offset;
+                    GridPosition finalPosition = position + offset;
+
+                    if (!handleDiagonals)
+                    {
+                        if (offset.x == maxMoveDistance && offset.y == maxMoveDistance) continue;
+                        if (offset.x == -maxMoveDistance && offset.y == -maxMoveDistance) continue;
+                        if (offset.x == maxMoveDistance && offset.y == -maxMoveDistance) continue;
+                        if (offset.x == -maxMoveDistance && offset.y == maxMoveDistance) continue;
+                    }
 
                     if (!LevelGrid.Instance.IsValidGridPosition(finalPosition)) continue;
                     if (!LevelGrid.Instance.IsGridPositionEmpty(finalPosition)) continue;
                     if (!LevelGrid.Instance.IsGridPositionWalkable(finalPosition)) continue;
-                    if (unitPosition == finalPosition) continue;
+                    if (position == finalPosition) continue;
+
+
 
                     validPositions.Add(finalPosition);
                 }

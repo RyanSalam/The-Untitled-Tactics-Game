@@ -10,31 +10,28 @@ namespace Tactics.ActionSystem
     public class AttackAction : ActionBase
     {
         [Header("Attack Properties")]
-        [SerializeField] private int attackRangeX = 1;
-        [SerializeField] private int attackRangeY = 1;
-        [SerializeField] private int damageAmount = 50;
+        [SerializeField] protected GridPosition[] attackPositions;
+        [SerializeField] protected int damageAmount = 50;
 
-        private UnitObject target;
+        protected UnitObject target;
 
-        public override List<GridPosition> GetValidActionGridPositions()
+        public override List<GridPosition> GetValidActionGridPositions(GridPosition position)
         {
             List<GridPosition> validPositions = new List<GridPosition>();
 
-            for (int x = -attackRangeX; x <= attackRangeX; x++)
-                for (int y = -attackRangeY; y <= attackRangeY; y++)
-                {
-                    GridPosition offset = new GridPosition(x, y);
-                    GridPosition final = owningUnit.GetUnitGridPosition() + offset;
+            foreach(GridPosition attackDir in attackPositions)
+            {
+                GridPosition final = position + attackDir;
 
-                    if (!LevelGrid.Instance.IsValidGridPosition(final)) continue;
+                if (!LevelGrid.Instance.IsValidGridPosition(final)) continue;
 
-                    UnitObject unit = LevelGrid.Instance.GetUnitAtPosition(final);
-                    if (unit == null) continue;
+                UnitObject unit = LevelGrid.Instance.GetUnitAtPosition(final);
+                if (unit == null) continue;
 
-                    if (!owningUnit.CheckIfEnemy(unit)) continue;
+                if (!owningUnit.CheckIfEnemy(unit)) continue;
 
-                    validPositions.Add(final);
-                }
+                validPositions.Add(final);
+            }
 
             return validPositions;
         }

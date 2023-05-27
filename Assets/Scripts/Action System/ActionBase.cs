@@ -5,6 +5,8 @@ using UnityEngine;
 using Tactics.GridSystem;
 using Tactics.UnitSystem;
 
+using Tactics.AI;
+
 namespace Tactics.ActionSystem
 {
     public abstract class ActionBase : MonoBehaviour
@@ -40,10 +42,22 @@ namespace Tactics.ActionSystem
         }
 
         public abstract void TakeAction(GridPosition gridPosition, Action OnActionComplete);
-        public abstract List<GridPosition> GetValidActionGridPositions();
+        public abstract List<GridPosition> GetValidActionGridPositions(GridPosition position);
+        public virtual List<GridPosition> GetValidActionGridPositions() => GetValidActionGridPositions(owningUnit.GetUnitGridPosition());
         public virtual bool IsValidActionGridPosition(GridPosition position)
         {
             return GetValidActionGridPositions().Contains(position);
+        }
+
+        public EnemyAction CalculateAIAction(GridPosition position)
+        {
+            int targetCount = owningUnit.GetPrimaryAction().GetValidActionGridPositions().Count;
+
+            return new EnemyAction
+            {
+                position = position,
+                actionValue = targetCount * 10
+            };
         }
 
         public string GetActionName()

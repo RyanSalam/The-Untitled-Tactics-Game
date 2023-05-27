@@ -1,0 +1,1993 @@
+fileFormatVersion: 2
+guid: b5383057ad1a3da40bd526108ceb83ba
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Berserker_Animations_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1056
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f60d0ceb6df3f46b4027f6cb4eddfb
+      internalID: 247841991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1056
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ddb1cf707ad1d448e8688830bbb42d
+      internalID: -1622137041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1056
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836b6f9a211ecbe4dae6b3e3437bd5eb
+      internalID: -1460416105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1056
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f05a5ee927bb544972ece9b8183897
+      internalID: 252479776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1042
+        width: 53
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5fd9b94fd27454c8d57340fee1e853
+      internalID: 1600163546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1042
+        width: 55
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d09965be69fde49b1842175f18202c
+      internalID: -1514319096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1042
+        width: 55
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909f6a80b41ec034d9c74f8740508ad5
+      internalID: -1589932677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1042
+        width: 55
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d914d013d57d84088c4cfef7b47231
+      internalID: 1255790954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 978
+        width: 57
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf2bebd62ca3974cb10e59a8feb50ad
+      internalID: -1856730540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 978
+        width: 57
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76ffc8548b34e4abf097ea6b983de9
+      internalID: -1209525188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 978
+        width: 57
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f57f8318b309246abf3765f6b7f9a0
+      internalID: 916094337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 978
+        width: 55
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9463edcb8f664e946b421ea364cc941c
+      internalID: -677167851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 927
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13e3e6e0308c9a4ea5d90a77065b5ea
+      internalID: 1263680029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 927
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7ca78295fb3244882c124d7d5e45a8
+      internalID: -578940534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 927
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7472016309dac4840afef3132510ea1b
+      internalID: 849452465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 927
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a32ac1a67181364faa8e7cbab9db2a7
+      internalID: 1280583924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 912
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd93fd9dde9874db94acf178fef716
+      internalID: 273745073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 911
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfab716f595cfb844a8bd27728c1bce5
+      internalID: -2064874804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 911
+        width: 54
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccb9a7fd57bd4647bce6e02a9a1c825
+      internalID: -121096413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_19
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 912
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4addf438725e54fbb7ea5d2e020db8
+      internalID: -1246960084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 847
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d471fbb283cf3a49b662f8185bb4ee2
+      internalID: 455476644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 847
+        width: 53
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a4bc8c09755604e8be13b6b3dc2afd
+      internalID: 192595239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 800
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ad4496678cff4b9e4a627962404c7
+      internalID: 340440394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 800
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e846bd52fa5f18c44bae3d4acda2d60d
+      internalID: -2143042719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 800
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa152b507b39acf4091f464d5cad831e
+      internalID: -1439637887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 800
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacbe92113b9f8241b53d89ed7daa929
+      internalID: -578269627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 786
+        width: 50
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8f98e77bb5b7c4a80a7992928968b7
+      internalID: 22870866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 786
+        width: 52
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80604f4b6150b54abb1863548a72673
+      internalID: 1648349305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_28
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 786
+        width: 52
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812b89d33378deb47b2ae6778df1e8fb
+      internalID: -215907456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 786
+        width: 52
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb8855e5f14a064783c913418e2d2a1
+      internalID: 1920780288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 722
+        width: 54
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba5edaa5045b4d439e3eac71b117f07
+      internalID: 1751880570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_31
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 722
+        width: 54
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d16021231a2ff4faf01a589b660e73
+      internalID: -1438103595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_32
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 722
+        width: 54
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7e5e5f32f3e284aa4ef00c5537efe8
+      internalID: -1918531603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 722
+        width: 52
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44d12bf0feae684ba598b0d81b040b5
+      internalID: 953124917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 671
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb355394b44abb047bc5eed4f39ddf48
+      internalID: -1691244196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 671
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6112ec1a166b4186df2f68647fba4
+      internalID: 1191008706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 671
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebc9fd907a131240a140de094ef0445
+      internalID: -2126583937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 671
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d9eaaacb2cdd4090f51cc1527c9c8
+      internalID: -344210654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 657
+        width: 50
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d98ad8348ea64b9c2439496626a4c
+      internalID: 15314233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_39
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 657
+        width: 47
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6ec96d18a9afc43a9765555d8f0612
+      internalID: -246784328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 657
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593dd2131f936064884b41c050198b56
+      internalID: -505548595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 657
+        width: 50
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6321c7741d8f60147b9de4542cb0818a
+      internalID: 22102598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 593
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a281ce1443dbaa4f95bc917a4efaaaa
+      internalID: 1124227848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_43
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 593
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5797e5e8b86436145836df7d13fb61b6
+      internalID: 1216073338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_44
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 544
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123a7bbaab244184b8ea6d14cde0d7b5
+      internalID: -102171908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 544
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308340d7b5d2f38499639cf9a54a2d25
+      internalID: 1030770827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33357c1b6987b9647836b60c91f382d9
+      internalID: -1351352293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 544
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b282c6224f00d14d9b309d56e0d294f
+      internalID: -966996792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_48
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 530
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b622a095a2ce72459f43b3528070732
+      internalID: -1695779106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 530
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a045b01d488bc72488910d3951956cd9
+      internalID: -1321273061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_50
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 530
+        width: 35
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac6b1e65fbb394f947c89933ccb8ab
+      internalID: -1399011013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 530
+        width: 35
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff382840990e604a8363e93511833bc
+      internalID: 545796859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 466
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962f6a6ef8fe90447bfdf2a80074e9ec
+      internalID: 240878945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 466
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e5ecf3153895544a38b19665855f05
+      internalID: 725361323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 466
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ec18c27a33faf4e82d94e99b48295c
+      internalID: -849069703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_55
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 466
+        width: 35
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbb854abde468541840d6b071a23cd5
+      internalID: -683384030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_56
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 415
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e9d47755a69e64798d6d2a714eb368
+      internalID: -453125993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_57
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 415
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3695d0cdc219f848b403a2a03406f2a
+      internalID: 1739926465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 415
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92584f7eebf8a541b67830d1b579682
+      internalID: 662162169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_59
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 415
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28b6e0aa41d669448796e5c073090e1
+      internalID: -1612273992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 401
+        width: 38
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a513d55526e0f7d4db1b553287c5bfc6
+      internalID: 950857169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 401
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a7ed0b9ffd7ab49a47928d6046bbfe
+      internalID: -665564494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_62
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 401
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ec485005508be429d0a76ab276b542
+      internalID: 1417221027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_63
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 401
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b7e1b82e03f9940a1901fd7cb78acf
+      internalID: 598520372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 337
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d7ed372b8def5438cf9deb8ce9ad06
+      internalID: 495883064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 337
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98319cc0378b1045918d1bb2a0eff42
+      internalID: -1857646712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977e125aeb9163a45ad7bf961a4268d6
+      internalID: -216195437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 288
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2fc591d66b7f4ba7678ef5dd24a9e
+      internalID: 1721778177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_68
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 288
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ee6fd86c46d9444ae846b9dcd9af13
+      internalID: -1255754796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_69
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 288
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30641856d0710c04eacb4c2940b37afc
+      internalID: 1384992152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_70
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 288
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02089d434e0d2a4f91c7640a1eb7f81
+      internalID: -1629831504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 274
+        width: 47
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb06e41b487d0f34a9de1f317303f599
+      internalID: -1647342185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 229
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c01fad39781a674da3a1784154a6790
+      internalID: -1494576642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_73
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 229
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e5fd51b6a06d345abac254d22d116e
+      internalID: -342888947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_74
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 229
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295ef063c8ba0041a86838d9337ff4b
+      internalID: 478106496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 229
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aab02da9ae0c14ca872ca2e7ed3a74
+      internalID: 859044503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_76
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 229
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb8ca43439507e42a1f58cd3a0feb9d
+      internalID: 818523153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_77
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 210
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71ca2006e0298a469783193044669fa
+      internalID: -124662495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_78
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 210
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0643bd7d66a616749bfdcad5710446b4
+      internalID: -670046564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_79
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 222
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53edb9c4f4e90664a83e89ab20e16e23
+      internalID: -1377326594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_80
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 222
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f465e6aafd6f8b44dbc0ba98fc8b49b0
+      internalID: -874751342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_81
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 210
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8db725f8b176a4db4cc1c9b0be36bc
+      internalID: -1215787092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_82
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 222
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508faed2aa5edee4281f86242b6b598d
+      internalID: -476700229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_83
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 55
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f8942e6d00e6a44b7fbbd3640890d0
+      internalID: 2033139646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berserker_Animations_84
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 14
+        width: 59
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0a4801483bf9646a3456bfd4a33bd9
+      internalID: -1465399396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Berserker_Animations_0: 247841991
+      Berserker_Animations_1: -1622137041
+      Berserker_Animations_10: 916094337
+      Berserker_Animations_11: -677167851
+      Berserker_Animations_12: 1263680029
+      Berserker_Animations_13: -578940534
+      Berserker_Animations_14: 849452465
+      Berserker_Animations_15: 1280583924
+      Berserker_Animations_16: 273745073
+      Berserker_Animations_17: -2064874804
+      Berserker_Animations_18: -121096413
+      Berserker_Animations_19: -1246960084
+      Berserker_Animations_2: -1460416105
+      Berserker_Animations_20: 455476644
+      Berserker_Animations_21: 192595239
+      Berserker_Animations_22: 340440394
+      Berserker_Animations_23: -2143042719
+      Berserker_Animations_24: -1439637887
+      Berserker_Animations_25: -578269627
+      Berserker_Animations_26: 22870866
+      Berserker_Animations_27: 1648349305
+      Berserker_Animations_28: -215907456
+      Berserker_Animations_29: 1920780288
+      Berserker_Animations_3: 252479776
+      Berserker_Animations_30: 1751880570
+      Berserker_Animations_31: -1438103595
+      Berserker_Animations_32: -1918531603
+      Berserker_Animations_33: 953124917
+      Berserker_Animations_34: -1691244196
+      Berserker_Animations_35: 1191008706
+      Berserker_Animations_36: -2126583937
+      Berserker_Animations_37: -344210654
+      Berserker_Animations_38: 15314233
+      Berserker_Animations_39: -246784328
+      Berserker_Animations_4: 1600163546
+      Berserker_Animations_40: -505548595
+      Berserker_Animations_41: 22102598
+      Berserker_Animations_42: 1124227848
+      Berserker_Animations_43: 1216073338
+      Berserker_Animations_44: -102171908
+      Berserker_Animations_45: 1030770827
+      Berserker_Animations_46: -1351352293
+      Berserker_Animations_47: -966996792
+      Berserker_Animations_48: -1695779106
+      Berserker_Animations_49: -1321273061
+      Berserker_Animations_5: -1514319096
+      Berserker_Animations_50: -1399011013
+      Berserker_Animations_51: 545796859
+      Berserker_Animations_52: 240878945
+      Berserker_Animations_53: 725361323
+      Berserker_Animations_54: -849069703
+      Berserker_Animations_55: -683384030
+      Berserker_Animations_56: -453125993
+      Berserker_Animations_57: 1739926465
+      Berserker_Animations_58: 662162169
+      Berserker_Animations_59: -1612273992
+      Berserker_Animations_6: -1589932677
+      Berserker_Animations_60: 950857169
+      Berserker_Animations_61: -665564494
+      Berserker_Animations_62: 1417221027
+      Berserker_Animations_63: 598520372
+      Berserker_Animations_64: 495883064
+      Berserker_Animations_65: -1857646712
+      Berserker_Animations_66: -216195437
+      Berserker_Animations_67: 1721778177
+      Berserker_Animations_68: -1255754796
+      Berserker_Animations_69: 1384992152
+      Berserker_Animations_7: 1255790954
+      Berserker_Animations_70: -1629831504
+      Berserker_Animations_71: -1647342185
+      Berserker_Animations_72: -1494576642
+      Berserker_Animations_73: -342888947
+      Berserker_Animations_74: 478106496
+      Berserker_Animations_75: 859044503
+      Berserker_Animations_76: 818523153
+      Berserker_Animations_77: -124662495
+      Berserker_Animations_78: -670046564
+      Berserker_Animations_79: -1377326594
+      Berserker_Animations_8: -1856730540
+      Berserker_Animations_80: -874751342
+      Berserker_Animations_81: -1215787092
+      Berserker_Animations_82: -476700229
+      Berserker_Animations_83: 2033139646
+      Berserker_Animations_84: -1465399396
+      Berserker_Animations_9: -1209525188
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

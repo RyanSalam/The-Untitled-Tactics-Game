@@ -11,11 +11,13 @@ namespace Tactics.UnitSystem
     [RequireComponent(typeof(HealthComponent))]
     public class UnitObject : MonoBehaviour
     {
+        public static event Action<UnitObject> OnAnyUnitSpawned;
         public static event Action<UnitObject> OnAnyUnitDied; 
 
         [Header("Components")]
         [SerializeField] private HealthComponent health;
         [SerializeField] private MoveAction moveAction;
+        [SerializeField] private ActionBase primaryAction; // Rework this later
 
         [Header("Attributes")]
         [SerializeField] private UnitFaction unitFaction;
@@ -36,6 +38,8 @@ namespace Tactics.UnitSystem
             position = LevelGrid.Instance.GetGridPosition(transform.position);
             LevelGrid.Instance.SetUnitAtGridPosition(this, position);
             transform.position = LevelGrid.Instance.GetWorldPosition(position);
+
+            OnAnyUnitSpawned?.Invoke(this);
         }
 
         public void SetUnitPosition(GridPosition position)
@@ -101,6 +105,16 @@ namespace Tactics.UnitSystem
 
         #endregion
 
+        public MoveAction GetMoveAction()
+        {
+            return moveAction;
+        }
+
+        public ActionBase GetPrimaryAction()
+        {
+            return primaryAction;
+        }
+
         public HealthComponent GetHealthComponent()
         {
             return health;
@@ -108,13 +122,10 @@ namespace Tactics.UnitSystem
         private void Health_OnDeath_Callback()
         {
             GetComponent<Animator>().SetTrigger("Death");
+            OnAnyUnitDied?.Invoke(this);
         }
     }
 
     public enum UnitFaction { PLAYER, ENEMY, NEUTRAL}
-}
-
-namespace Tactics.ActionSystem
-{
 }
 

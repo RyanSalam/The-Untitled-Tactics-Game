@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections;
 using UnityEngine;
 
 using UnityEngine.EventSystems;
@@ -6,6 +8,7 @@ using UnityEngine.EventSystems;
 using Tactics.ActionSystem;
 using Tactics.GridSystem;
 using Tactics.UnitSystem;
+using Tactics.AI;
 
 namespace Tactics
 {
@@ -32,6 +35,11 @@ namespace Tactics
                 Destroy(this.gameObject);
         }
 
+        private void Start()
+        {
+            
+        }
+
         private void Update()
         {
             if (isActionOccuring) return;
@@ -39,6 +47,9 @@ namespace Tactics
 
             if (!TryHandleUnitSelection())
                 HandleSelectedAction();
+
+            if (Input.GetButtonDown("Jump"))
+                StartCoroutine(HandleEnemyActions());
         }
 
         private bool TryHandleUnitSelection()
@@ -84,6 +95,41 @@ namespace Tactics
             }
         }
 
+        private IEnumerator HandleEnemyActions()
+        {
+            bool waitingForAction = false;
+            yield return new WaitForSeconds(2);
+
+            foreach (UnitObject unit in UnitManager.Instance.GetEnemyUnits())
+            {
+                AIController controller = unit.GetComponent<AIController>();
+
+                if (controller == null)
+                {
+                    Debug.Log("AI Controller was found to be null");
+                }
+
+                EnemyAction action = unit.GetComponent<AIController>().GetBestEnemyAction();
+
+                if (action == null)
+                {
+                    Debug.Log("Action has found to be null, please report");
+                    continue;
+                }
+
+                ActionBase actionBase = action.action;
+                if (actionBase == null) continue;
+
+                actionBase.TakeAction(action.position, ClearWait);
+                yield return new WaitUntil(() => waitingForAction);
+            }
+
+            void ClearWait()
+            {
+                waitingForAction = true;
+            }
+        }
+
         public void StartAction()
         {
             isActionOccuring = true;
@@ -92,6 +138,7 @@ namespace Tactics
 
         public void ClearAction()
         {
+            Debug.Log("Action has finished");
             isActionOccuring = false;
             OnStateChanged?.Invoke(false);
         }

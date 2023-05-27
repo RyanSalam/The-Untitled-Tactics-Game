@@ -5,6 +5,7 @@ using System;
 
 namespace Tactics.GridSystem
 {
+    [System.Serializable]
     public struct GridPosition : IEquatable<GridPosition>
     {
         public int x;
